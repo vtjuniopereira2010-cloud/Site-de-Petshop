@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+<div style="display: flex; align-items: center; gap: 15 px;">
+<img src="Imagens/MYPET.png" alt="Logo da MyPet" width="200">
+<h1>Contate-nos</h1>
+</div>
+    <style>
+body{
+    background-color: rgb(145, 164, 216);
+    color: rgb(75, 86, 138);
+    font-family: 'Kristen ITC';
+}
+    </style>
+
+</head>
+<body>
+<p>Tem alguma avaliação, reclamação ou quer marcar um agendamento? <br> Então seja bem vindo ao canal de contato! Aqui você pode nos contatar para assuntos relacionados ao nosso PetShop e seus serviços! </p>
+<hr style="background-color: rgb(91, 113, 189); height: 2px; border: none;">
+<p>Informe os dados a seguir:</p>
+<form action="">
+  <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+<br>
+<br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+<br>
+<br>
+    <label for="telefone">Telefone:</label>
+    <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" required>
+<br>
+<br>
+    <label for="assunto">Assunto:</label>
+    <select name="assunto" id="assunto" required>
+<option value=""disable selected>Selecione o assunto que quer tratar:</option>
+<option value="avaliacao">Avaliação</option>
+<option value="agendamento">Agendamento</option>
+<option value="outros">Outros</option>
+    </select>
+<br>
+<br>
+    <label for="data">Data para atendimento:</label>
+    <input type="date" name="data" id="data">
+<br>
+<br>
+   <label for="mensagem">Mensagem:</label>
+   <br>
+   <textarea name="mensagem" id="mensagem" rows="5" cols="40" placeholder="Detalhe aqui sobre o assunto que quer tratar" required></textarea>
+<br>
+<br>
+    <label for="termos">Aceite os termos do site:</label>
+    <input type="checkbox" name="termos" id="termos" required>
+<br>
+<br>
+    <button type="submit"> Enviar</button>
+</form>
+
+</body>
+</html>
